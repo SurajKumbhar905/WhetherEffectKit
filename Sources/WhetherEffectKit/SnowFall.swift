@@ -30,7 +30,6 @@ class SnowFall : SKScene{
         anchorPoint = CGPoint(x: 0.5, y: 1)
         
         if let emitterPath = Bundle.module.url(forResource: "SnowFall", withExtension: "sks") {
-            print(emitterPath,"emitterPath")
             do {
                 let fileData = try Data(contentsOf: emitterPath)
                 let emitterNode = try NSKeyedUnarchiver.unarchivedObject(ofClass: SKEmitterNode.self, from: fileData)

@@ -22,7 +22,7 @@ Bring stunning weather effects to your iOS apps effortlessly!
 2. Enter the repository URL:
 
    ```
-   https://github.com/yourusername/WhetherEffectKit.git
+   https://github.com/SurajKumbhar905/WhetherEffectKit.git
    ```
 
 3. Choose **Add Package** and you're ready to go!
@@ -63,7 +63,7 @@ The framework includes a **ground interaction effect** that enhances realism.
 RoundedRectangle(cornerRadius: 6)
     .frame(width: 100, height: 200)
     .overlay(
-        WeatherEffectView(effectType: .rainLanding //.snowLanding, intensity: .moderate) // or .snowLanding
+        WeatherEffectView(effectType: .rainLanding, intensity: .moderate) // or .snowLanding
     )
 ```
 

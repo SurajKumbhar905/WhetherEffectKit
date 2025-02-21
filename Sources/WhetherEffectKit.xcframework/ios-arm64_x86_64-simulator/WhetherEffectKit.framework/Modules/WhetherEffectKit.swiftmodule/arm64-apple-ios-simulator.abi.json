@@ -1,0 +1,952 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "WhetherEffectKit",
+    "printedName": "WhetherEffectKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "WhetherEffectKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EffectType",
+        "printedName": "EffectType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rain",
+            "printedName": "rain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.EffectType.Type) -> WhetherEffectKit.EffectType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EffectType",
+                    "printedName": "WhetherEffectKit.EffectType",
+                    "usr": "s:16WhetherEffectKit0B4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.EffectType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "WhetherEffectKit.EffectType",
+                        "usr": "s:16WhetherEffectKit0B4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit0B4TypeO4rainyA2CmF",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO4rainyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Var",
+            "name": "snow",
+            "printedName": "snow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.EffectType.Type) -> WhetherEffectKit.EffectType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EffectType",
+                    "printedName": "WhetherEffectKit.EffectType",
+                    "usr": "s:16WhetherEffectKit0B4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.EffectType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "WhetherEffectKit.EffectType",
+                        "usr": "s:16WhetherEffectKit0B4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit0B4TypeO4snowyA2CmF",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO4snowyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Var",
+            "name": "rainLanding",
+            "printedName": "rainLanding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.EffectType.Type) -> WhetherEffectKit.EffectType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EffectType",
+                    "printedName": "WhetherEffectKit.EffectType",
+                    "usr": "s:16WhetherEffectKit0B4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.EffectType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "WhetherEffectKit.EffectType",
+                        "usr": "s:16WhetherEffectKit0B4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit0B4TypeO11rainLandingyA2CmF",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO11rainLandingyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Var",
+            "name": "snowLanding",
+            "printedName": "snowLanding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.EffectType.Type) -> WhetherEffectKit.EffectType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EffectType",
+                    "printedName": "WhetherEffectKit.EffectType",
+                    "usr": "s:16WhetherEffectKit0B4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.EffectType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EffectType",
+                        "printedName": "WhetherEffectKit.EffectType",
+                        "usr": "s:16WhetherEffectKit0B4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit0B4TypeO11snowLandingyA2CmF",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO11snowLandingyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EffectType",
+                "printedName": "WhetherEffectKit.EffectType",
+                "usr": "s:16WhetherEffectKit0B4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EffectType",
+                "printedName": "WhetherEffectKit.EffectType",
+                "usr": "s:16WhetherEffectKit0B4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WhetherEffectKit0B4TypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "WhetherEffectKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WhetherEffectKit0B4TypeO9hashValueSivp",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO9hashValueSivp",
+            "moduleName": "WhetherEffectKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WhetherEffectKit0B4TypeO9hashValueSivg",
+                "mangledName": "$s16WhetherEffectKit0B4TypeO9hashValueSivg",
+                "moduleName": "WhetherEffectKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WhetherEffectKit0B4TypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16WhetherEffectKit0B4TypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "WhetherEffectKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WhetherEffectKit0B4TypeO",
+        "mangledName": "$s16WhetherEffectKit0B4TypeO",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Intensity",
+        "printedName": "Intensity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "light",
+            "printedName": "light",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.Intensity.Type) -> WhetherEffectKit.Intensity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Intensity",
+                    "printedName": "WhetherEffectKit.Intensity",
+                    "usr": "s:16WhetherEffectKit9IntensityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.Intensity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Intensity",
+                        "printedName": "WhetherEffectKit.Intensity",
+                        "usr": "s:16WhetherEffectKit9IntensityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit9IntensityO5lightyA2CmF",
+            "mangledName": "$s16WhetherEffectKit9IntensityO5lightyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Var",
+            "name": "moderate",
+            "printedName": "moderate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.Intensity.Type) -> WhetherEffectKit.Intensity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Intensity",
+                    "printedName": "WhetherEffectKit.Intensity",
+                    "usr": "s:16WhetherEffectKit9IntensityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.Intensity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Intensity",
+                        "printedName": "WhetherEffectKit.Intensity",
+                        "usr": "s:16WhetherEffectKit9IntensityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit9IntensityO8moderateyA2CmF",
+            "mangledName": "$s16WhetherEffectKit9IntensityO8moderateyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Var",
+            "name": "heavy",
+            "printedName": "heavy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WhetherEffectKit.Intensity.Type) -> WhetherEffectKit.Intensity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Intensity",
+                    "printedName": "WhetherEffectKit.Intensity",
+                    "usr": "s:16WhetherEffectKit9IntensityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WhetherEffectKit.Intensity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Intensity",
+                        "printedName": "WhetherEffectKit.Intensity",
+                        "usr": "s:16WhetherEffectKit9IntensityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WhetherEffectKit9IntensityO5heavyyA2CmF",
+            "mangledName": "$s16WhetherEffectKit9IntensityO5heavyyA2CmF",
+            "moduleName": "WhetherEffectKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Intensity",
+                "printedName": "WhetherEffectKit.Intensity",
+                "usr": "s:16WhetherEffectKit9IntensityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Intensity",
+                "printedName": "WhetherEffectKit.Intensity",
+                "usr": "s:16WhetherEffectKit9IntensityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WhetherEffectKit9IntensityO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16WhetherEffectKit9IntensityO2eeoiySbAC_ACtFZ",
+            "moduleName": "WhetherEffectKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WhetherEffectKit9IntensityO9hashValueSivp",
+            "mangledName": "$s16WhetherEffectKit9IntensityO9hashValueSivp",
+            "moduleName": "WhetherEffectKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WhetherEffectKit9IntensityO9hashValueSivg",
+                "mangledName": "$s16WhetherEffectKit9IntensityO9hashValueSivg",
+                "moduleName": "WhetherEffectKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WhetherEffectKit9IntensityO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16WhetherEffectKit9IntensityO4hash4intoys6HasherVz_tF",
+            "moduleName": "WhetherEffectKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WhetherEffectKit9IntensityO",
+        "mangledName": "$s16WhetherEffectKit9IntensityO",
+        "moduleName": "WhetherEffectKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WeatherEffectView",
+        "printedName": "WeatherEffectView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(effectType:intensity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeatherEffectView",
+                "printedName": "WhetherEffectKit.WeatherEffectView",
+                "usr": "s:16WhetherEffectKit07WeatherB4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EffectType",
+                "printedName": "WhetherEffectKit.EffectType",
+                "usr": "s:16WhetherEffectKit0B4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Intensity",
+                "printedName": "WhetherEffectKit.Intensity",
+                "usr": "s:16WhetherEffectKit9IntensityO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16WhetherEffectKit07WeatherB4ViewV10effectType9intensityAcA0bG0O_AA9IntensityOtcfc",
+            "mangledName": "$s16WhetherEffectKit07WeatherB4ViewV10effectType9intensityAcA0bG0O_AA9IntensityOtcfc",
+            "moduleName": "WhetherEffectKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SKView",
+                "printedName": "SpriteKit.SKView",
+                "usr": "c:objc(cs)SKView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<WhetherEffectKit.WeatherEffectView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeatherEffectView",
+                    "printedName": "WhetherEffectKit.WeatherEffectView",
+                    "usr": "s:16WhetherEffectKit07WeatherB4ViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WhetherEffectKit07WeatherB4ViewV10makeUIView7contextSo6SKViewC7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s16WhetherEffectKit07WeatherB4ViewV10makeUIView7contextSo6SKViewC7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "WhetherEffectKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SKView",
+                "printedName": "SpriteKit.SKView",
+                "usr": "c:objc(cs)SKView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<WhetherEffectKit.WeatherEffectView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeatherEffectView",
+                    "printedName": "WhetherEffectKit.WeatherEffectView",
+                    "usr": "s:16WhetherEffectKit07WeatherB4ViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WhetherEffectKit07WeatherB4ViewV12updateUIView_7contextySo6SKViewC_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s16WhetherEffectKit07WeatherB4ViewV12updateUIView_7contextySo6SKViewC_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "WhetherEffectKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16WhetherEffectKit07WeatherB4ViewV",
+        "mangledName": "$s16WhetherEffectKit07WeatherB4ViewV",
+        "moduleName": "WhetherEffectKit",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SKView",
+                    "printedName": "SpriteKit.SKView",
+                    "usr": "c:objc(cs)SKView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Suraj\/Documents\/SelfScanProject\/WhetherEffectKit\/WhetherEffectKit\/RailFall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Suraj\/Documents\/SelfScanProject\/WhetherEffectKit\/WhetherEffectKit\/RailFall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Suraj\/Documents\/SelfScanProject\/WhetherEffectKit\/WhetherEffectKit\/RailFall.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3336,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Suraj\/Documents\/SelfScanProject\/WhetherEffectKit\/WhetherEffectKit\/RailFall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3367,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Suraj\/Documents\/SelfScanProject\/WhetherEffectKit\/WhetherEffectKit\/RailFall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Suraj\/Documents\/SelfScanProject\/WhetherEffectKit\/WhetherEffectKit\/RailFall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5574,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name WhetherEffectKit
+import Foundation
+import SpriteKit
+import Swift
+import SwiftUI
+import UIKit
+@_exported import WhetherEffectKit
+import _Concurrency
+import _SpriteKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum EffectType {
+  case rain
+  case snow
+  case rainLanding
+  case snowLanding
+  public static func == (a: WhetherEffectKit.EffectType, b: WhetherEffectKit.EffectType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Intensity {
+  case light
+  case moderate
+  case heavy
+  public static func == (a: WhetherEffectKit.Intensity, b: WhetherEffectKit.Intensity) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public struct WeatherEffectView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(effectType: WhetherEffectKit.EffectType, intensity: WhetherEffectKit.Intensity)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: WhetherEffectKit.WeatherEffectView.Context) -> SpriteKit.SKView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: SpriteKit.SKView, context: WhetherEffectKit.WeatherEffectView.Context)
+  @available(iOS 13.0, *)
+  public typealias Body = Swift.Never
+  @available(iOS 13.0, *)
+  public typealias Coordinator = Swift.Void
+  @available(iOS 13.0, *)
+  public typealias UIViewType = SpriteKit.SKView
+}
+extension WhetherEffectKit.EffectType : Swift.Equatable {}
+extension WhetherEffectKit.EffectType : Swift.Hashable {}
+extension WhetherEffectKit.Intensity : Swift.Equatable {}
+extension WhetherEffectKit.Intensity : Swift.Hashable {}
+@available(iOS 13.0, *)
+extension WhetherEffectKit.WeatherEffectView : Swift.Sendable {}

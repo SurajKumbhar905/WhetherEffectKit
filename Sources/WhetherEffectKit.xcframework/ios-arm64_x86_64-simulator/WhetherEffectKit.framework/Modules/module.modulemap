@@ -1,0 +1,6 @@
+framework module WhetherEffectKit {
+  umbrella header "WhetherEffectKit.h"
+  export *
+
+  module * { export * }
+}

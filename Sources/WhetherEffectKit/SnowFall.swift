@@ -39,9 +39,8 @@ class SnowFall : SKScene{
                 
                 let imageName = Bundle.module.url(forResource: "Ellipse1", withExtension: "png")
                 let imageData = try Data(contentsOf: imageName!)
-//                emitterNode?.particleTexture = SKTexture(image: UIImage(data: imageData)!)
-//                emitterNode?.particleColor = UIColor.white
-//                emitterNode?.particleTexture =  SKTexture(image: UIImage(data: imageData)!)
+                emitterNode?.particleTexture = SKTexture(image: UIImage(data: imageData)!)
+                emitterNode?.particleColor = UIColor.white
                 addChild(emitterNode!)
               
                 emitterNode?.particlePositionRange.dx = UIScreen.main.bounds.width
@@ -56,30 +55,30 @@ class SnowFall : SKScene{
         
     }
     
-    override func didMove(to view: SKView) {
-        size = UIScreen.main.bounds.size
-        scaleMode = .resizeFill
-        self.backgroundColor = .clear
-        
-        anchorPoint = CGPoint(x: 0.5, y: 1)
-        
-        if let emitterPath = Bundle.module.url(forResource: "SnowFall", withExtension: "sks") {
-            do {
-                let fileData = try Data(contentsOf: emitterPath)
-                let emitterNode = try NSKeyedUnarchiver.unarchivedObject(ofClass: SKEmitterNode.self, from: fileData)
-                
-                
-                emitterNode?.particleBirthRate = birthRateForIntensity()
-                addChild(emitterNode!)
-                emitterNode?.particlePositionRange.dx = UIScreen.main.bounds.width
-
-                
-            } catch {
-                print("didn't work")
-            }
-        }
-        
-    }
+//    override func didMove(to view: SKView) {
+//        size = UIScreen.main.bounds.size
+//        scaleMode = .resizeFill
+//        self.backgroundColor = .clear
+//        
+//        anchorPoint = CGPoint(x: 0.5, y: 1)
+//        
+//        if let emitterPath = Bundle.module.url(forResource: "SnowFall", withExtension: "sks") {
+//            do {
+//                let fileData = try Data(contentsOf: emitterPath)
+////                let emitterNode = try NSKeyedUnarchiver.unarchivedObject(ofClass: SKEmitterNode.self, from: fileData)
+//                
+//                
+////                emitterNode?.particleBirthRate = birthRateForIntensity()
+////                addChild(emitterNode!)
+////                emitterNode?.particlePositionRange.dx = UIScreen.main.bounds.width
+//
+//                
+//            } catch {
+//                print("didn't work")
+//            }
+//        }
+//        
+//    }
     
     private func birthRateForIntensity() -> CGFloat {
             switch intensity {

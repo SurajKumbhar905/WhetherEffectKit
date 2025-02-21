@@ -1,70 +1,78 @@
-WhetherEffectKit
+# WhetherEffectKit
 
 Bring stunning weather effects to your iOS apps effortlessly!
 
-🌦 Overview
+## 🌦 Overview
 
-WhetherEffectKit is a lightweight and powerful iOS framework designed to add realistic weather effects to your app with just a few lines of code. Whether you want gentle snowfall or a dramatic thunderstorm, this framework has you covered.
+**WhetherEffectKit** is a lightweight and powerful iOS framework designed to add realistic weather effects to your app with just a few lines of code. Whether you want gentle snowfall or a dramatic thunderstorm, this framework has you covered.
 
-🚀 Features
+## 🚀 Features
 
-🌧 Rain Effect with adjustable intensity: light, moderate, heavy
+- 🌧 **Rain Effect** with adjustable intensity: *light, moderate, heavy*
+- ⚡ **Lightning Bolts** (available in moderate and heavy rain for realism)
+- ❄ **Snow Effect** for a peaceful winter ambiance
+- 🌍 **Ground Effect** to enhance the rain interaction
+- 📱 **Easy Integration** – just import and use!
 
-⚡ Lightning Bolts (available in moderate and heavy rain for realism)
+## 📦 Installation
 
-❄ Snow Effect for a peaceful winter ambiance
+### Swift Package Manager (Recommended)
 
-🌍 Ground Effect to enhance the rain interaction
+1. Open Xcode and navigate to **File > Add Packages**.
+2. Enter the repository URL:
 
-📱 Easy Integration – just import and use!
+   ```
+   https://github.com/yourusername/WhetherEffectKit.git
+   ```
 
-📦 Installation
+3. Choose **Add Package** and you're ready to go!
 
-Swift Package Manager (Recommended)
+## 🛠 Usage
 
-Open Xcode and navigate to File > Add Packages
+### Importing the Framework
 
-Enter the repository URL:
-
-https://github.com/yourusername/WhetherEffectKit.git
-
-Choose Add Package and you're ready to go!
-
-🛠 Usage
-
-Importing the Framework
-
+```swift
 import WhetherEffectKit
+```
 
-Adding Weather Effects
+### Adding Weather Effects
 
-🌧 Rain or Snowfall Effect
+#### 🌧 Rain or Snowfall Effect
 
+```swift
 WeatherEffectView(effectType: .rain, intensity: .heavy)
+```
 
-❄ Snow Effect
+#### ❄ Snow Effect
 
+```swift
 WeatherEffectView(effectType: .snow, intensity: .heavy)
+```
 
-⚡ Enabling Lightning (for Rain)
+#### ⚡ Enabling Lightning (for Rain)
 
-Lightning bolts automatically appear in moderate and heavy rain modes for a more realistic stormy effect.
+Lightning bolts automatically appear in **moderate and heavy rain** modes for a more realistic stormy effect.
 
-🌍 Enabling Ground Effect for Rain
+#### 🌍 Enabling Ground Effect for Rain
 
-The framework includes a ground interaction effect that enhances realism.
+The framework includes a **ground interaction effect** that enhances realism.
 
+### 🌧 Rainfall or Snowfall Landing Effect
 
-🌧 Rainfall or Snowfall Landing Effect
-
+```swift
 RoundedRectangle(cornerRadius: 6)
     .frame(width: 100, height: 200)
     .overlay(
-        WeatherEffectView(effectType: .rainLanding //snowLanding, intensity: .moderate)
+        WeatherEffectView(effectType: .rainLanding //.snowLanding, intensity: .moderate) // or .snowLanding
     )
+```
 
-🏆 Why Use WhetherEffectKit?
+## 🏆 Why Use WhetherEffectKit?
 
-✅ Simple and lightweight✅ Customizable weather intensity✅ Realistic lightning and ground effects✅ Plug-and-play integration✅ Perfect for immersive UI experiences
+✅ **Simple and lightweight**  
+✅ **Customizable weather intensity**  
+✅ **Realistic lightning and ground effects**  
+✅ **Plug-and-play integration**  
+✅ **Perfect for immersive UI experiences**  
 
-Give WhetherEffectKit a try and elevate your iOS app with mesmerizing weather effects! 🌦⚡❄
+Give **WhetherEffectKit** a try and elevate your iOS app with mesmerizing weather effects! 🌦⚡❄
